@@ -3,9 +3,9 @@ site_url: https://data-structure.readthedocs.io/zh-cn/latest
 site_author: Jinghui Chan
 
 repo_name: AlgoGo
-repo_url: https://github.com/JinghuiChan/DataStructure/tree/master/docs
+repo_url: https://github.com/JinghuiChan/AlgoGo/tree/main/docs
 
-copyright: Copyright &copy; 2024-present <a href="https://github.com/JinghuiChan/DataStructure/tree/master/docs" target="_blank" rel="noopener noreferrer">Jinghui Chan</a>
+copyright: Copyright &copy; 2024-present <a href="https://github.com/JinghuiChan/AlgoGo/tree/main/docs" target="_blank" rel="noopener noreferrer">Jinghui Chan</a>
 
 theme:
   name: material
@@ -37,13 +37,13 @@ theme:
     - content.tabs.link
     - navigation.expand
     - navigation.path
-    # - toc.integrate
-    # - navigation.indexes
-    # - navigation.tabs
-    # - navigation.tabs.sticky
-    # - navigation.instant
-    # - navigation.expand
-    # - navigation.sections
+    - toc.integrate
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
 
 
   icon:
@@ -64,15 +64,33 @@ theme:
     annotation: material/plus-circle
 
 extra:
+  homepage: https://data-structure.readthedocs.io/zh-cn/latest
   social:
     - icon: fontawesome/brands/github
       #link: https://github.com/JinghuiChan/ComputerWings
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="https://f.wps.cn/g/BXYGa3ll/" target="_blank" rel="noopener">feedback form</a>.
 
 nav:
   - 第1章 绪论:
     - 什么是数据结构？: "第1章 绪论/1.1 什么是数据结构？.md"
+  - Blog:
+    - blog/index.md
 
-    
+
 
 #nav:
 #  - 前言: "index.md"
@@ -119,7 +137,16 @@ extra_javascript:
 
 
 plugins:
+  - blog
   - glightbox
+  - search
+  - social:
+      enabled: !ENV [CI, false]
+      concurrency: 1
+      cache: false
+      log: false
+      log_level: warn
+      cards_layout_dir: layouts
 
 
 
@@ -128,6 +155,7 @@ plugins:
 # pip install mkdocs-glightbox
 # pip install markdown-checklist
 # pip install mkdocs-link-marker    # https://github.com/timmeinerzhagen/mkdocs-link-marker
+# pip install mkdocs-rss-plugin     #The built-in blog plugin integrates seamlessly with the RSS plugin, which provides a simple way to add an RSS feed to your blog (or to your whole documentation). Install it with pip:
 
 
 # mkdocs serve  运行
