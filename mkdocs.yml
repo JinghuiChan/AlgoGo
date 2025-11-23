@@ -64,7 +64,7 @@ theme:
     annotation: material/plus-circle
 
 extra:
-  homepage: https://data-structure.readthedocs.io/zh-cn/latest
+  homepage: https://algogo.readthedocs.io/zh-cn/latest/
   social:
     - icon: fontawesome/brands/github
       #link: https://github.com/JinghuiChan/ComputerWings
@@ -85,15 +85,15 @@ extra:
             using our <a href="https://f.wps.cn/g/BXYGa3ll/" target="_blank" rel="noopener">feedback form</a>.
 
 nav:
+  - Home: index.md
   - 一起刷题:
-    - 什么是数据结构？: "第1章 绪论/1.1 什么是数据结构？.md"
-  - 数学建模:
-  - ACM:
-  - 天梯赛:
-  - 计挑赛:
+    - index: index.md
+#    - 什么是数据结构？: "第1章 绪论/1.1 什么是数据结构？.md"
   - 蓝桥杯:
-  - About:
-    - blog/index.md
+    - lanqiao: template.md
+  - Manu2:
+    - manu2: template.md
+
 
 
 
