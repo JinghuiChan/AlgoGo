@@ -1,5 +1,5 @@
 site_name: 计数竞赛营
-site_url: https://data-structure.readthedocs.io/zh-cn/latest
+site_url: https://algogo.readthedocs.io/zh-cn/latest/
 site_author: Jinghui Chan
 
 repo_name: AlgoGo
@@ -85,9 +85,14 @@ extra:
             using our <a href="https://f.wps.cn/g/BXYGa3ll/" target="_blank" rel="noopener">feedback form</a>.
 
 nav:
-  - 第1章 绪论:
+  - 一起刷题:
     - 什么是数据结构？: "第1章 绪论/1.1 什么是数据结构？.md"
-  - Blog:
+  - 数学建模:
+  - ACM:
+  - 天梯赛:
+  - 计挑赛:
+  - 蓝桥杯:
+  - About:
     - blog/index.md
 
 
