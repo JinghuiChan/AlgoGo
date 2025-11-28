@@ -4,9 +4,9 @@ hide:
   - toc
 ---
 
-# 一起来刷题
 
-![算法学习路径](https://mmbiz.qpic.cn/sz_mmbiz_png/4ibTAbNwXYXMQHiam3aFQgNCqKxeY7g1UnwzoVVa4gjjfvvEP4XXyZGykLNt3FURnobicYia278HsQm9HWM3fmThLg/640?wx_fmt=png&from=appmsg&wxfrom=13&tp=wxpic&watermark=1#imgIndex=0) 算法学习路径
+
+![算法学习路径](pic/1/640.png) 
 
 # 更多学习资源
 
