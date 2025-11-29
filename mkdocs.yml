@@ -72,8 +72,9 @@ nav:
   - 一起刷题: "index.md"
   - 算法入门:
       - 第一天:
-        - P0000 Hello,World: "index2.md"
+        - P1001 A+B Problem: "1day/p1001.md"
       - 第2天: "none.md"
+
 
 #    - 2.2 单链表: "第2章 线性表/2.2 单链表.md"
 #    - 2.3 双链表: "第2章 线性表/2.3 双链表.md"
